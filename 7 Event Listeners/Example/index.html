@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Example</title>
+    <style>
+        *{
+            text-align: center;
+            background-color: skyblue;
+        }
+        .reveal-btn{
+            /* margin-left: 30%; */
+            /* margin-top: 20%; */
+            /* padding: 300px 300px 300px 300px; */
+        }
+        .container{
+            display: flex;
+            
+        }
+        .hidden-content{
+            display: none;
+        }
+        .hidden-content.reveal-btn {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="main-heading">Event Listeners</h1>
+    <div class="container">
+        <button class="reveal-btn boxes">Reveal More</button>
+        <div class="hidden-content boxes">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione sint reprehenderit architecto veniam non id et dolores pariatur perferendis praesentium, aut quae minus, velit recusandae quas mollitia nobis officiis, numquam nulla doloremque! Eum magnam velit magni vel reiciendis dignissimos quod in, cum quo qui exercitationem, autem sit error neque reprehenderit!</div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
